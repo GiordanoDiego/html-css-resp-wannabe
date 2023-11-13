@@ -127,3 +127,73 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* dekstop first */
+
+/* query tablet */
+@media screen and (max-width: 1140px){
+
+    .site-header{
+        width: 100%;
+    }
+
+    .container, .lessons, .steps, .why-us {
+        width: 100%;
+    }
+    
+}
+
+/* query tablet */
+@media screen and (max-width: 768px){
+    .site-header{
+        width: 100%;
+    }
+
+    .container, .lessons, .steps, .why-us {
+        width: 100%;
+    }
+    
+}
+
+/* query mobile */
+@media screen and (max-width: 480px){
+    .site-header{
+        width: 100%px;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .lessons .col,
+    .steps .col
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .lessons .col img,
+    .steps .col img
+    {
+        height: 100%;
+    }
+
+    .why-us .col-left
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .why-us .col-right
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+
+}
